@@ -1,0 +1,29 @@
+.search {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 20px 0 20px;
+}
+
+.search__form {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    flex-grow: 1;
+    gap: 7px;
+    line-height: 1.22;
+}
+
+.search__form-bar {
+    width: 100%;
+}
+
+.search__form-button {
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/iconmonstr-search-thin.svg');
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.main_default {
+  margin: 0;
+  font-size: 48px;
+  max-width: 600px;
+  text-align: center;
+  font-family: "Solway", serif;
+  font-weight: 600;
+}
+
+.main__title {
+  font-family: "Solway", serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.22;
+  /* background-color: #effdff;
+    border-radius: 12px;
+    padding: 20px; */
+}

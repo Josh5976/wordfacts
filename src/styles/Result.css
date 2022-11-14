@@ -1,0 +1,41 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  margin-top: 40px;
+}
+
+.result__title {
+  margin: 0;
+  font-family: "Solway", serif;
+  font-size: 40px;
+  display: inline-block;
+  margin-right: auto;
+  background-color: #effdff;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.result__title:last-of-type {
+  border-bottom-right-radius: 0;
+}
+
+.result__text:last-of-type {
+  border-top-right-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.result__text {
+  margin: 0;
+  font-family: "Solway", serif;
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: 300;
+  margin-left: 20px;
+  display: inline-block;
+  margin-right: auto;
+  background-color: #effdff;
+  border-radius: 0 0 12px 12px;
+  padding: 5px;
+  margin-bottom: 10px;
+}

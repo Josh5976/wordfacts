@@ -1,6 +1,5 @@
-
 .page {
-    background-color: #eeffFF;
-    min-height: 100vh;
-
+  background-color: #ccefff;
+  min-height: 100vh;
+  position: relative;
 }

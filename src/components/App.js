@@ -18,14 +18,18 @@ function App() {
         setResult(res);
         setWord(word);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+      });
 
     api
       .getRhymes(word)
       .then((res) => {
         setRhymes(res);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   function getOptionApi(option) {
@@ -40,7 +44,7 @@ function App() {
   }
 
   return (
-    <div className="page">
+    <div className="page" id="home">
       <Header />
       <Search searchButtonClick={searchButtonSubmit} />
       <Main

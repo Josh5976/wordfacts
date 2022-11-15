@@ -21,7 +21,35 @@
   font-size: 58px;
   font-weight: 700;
   line-height: 1.22;
-  /* background-color: #effdff;
-    border-radius: 12px;
-    padding: 20px; */
+}
+
+.main__params {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.main__params-item {
+  max-width: 300px;
+  width: 85%;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  border: 2px #ccc solid;
+  border-radius: 10px;
+  transition: transform 0.5s, background-color 0.4s;
+}
+
+.main__params-item:hover {
+  cursor: pointer;
+  transform: scale(1.12);
+  transition: transform 0.5s, background-color 0.4s;
+  background-color: #ccc;
+}
+
+.main__params-item_active {
+  background-color: #ccc;
+  transition: background-color 0.3s transfrom 0.5s;
 }

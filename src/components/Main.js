@@ -42,13 +42,13 @@ function Main({ result, rhymes, searchOption, optionData }) {
   }
 
   return (
-    <div className="main">
+    <main className="main">
       {dataCheck() ? (
         <>
           <h2 className="main__title">
             {result.word.charAt(0).toUpperCase() + result.word.slice(1)}
           </h2>
-          <div className="search__params">
+          <div className="main__params">
             {/* Render all the option buttons */}
             {getAllKeys().map((item, i) => {
               return (
@@ -84,7 +84,7 @@ function Main({ result, rhymes, searchOption, optionData }) {
           Enter a word in the Search bar to see results.
         </p>
       )}
-    </div>
+    </main>
   );
 }
 

@@ -18,7 +18,7 @@ function RenderOption({ data }) {
 
 
   return (
-    <div className="option">
+    <section className="option">
       <h1 className="option__title">{title}</h1>
       {info && (
         <>
@@ -38,7 +38,7 @@ function RenderOption({ data }) {
           )}
         </>
       )}
-    </div>
+    </section>
   );
 }
 

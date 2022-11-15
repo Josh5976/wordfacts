@@ -5,7 +5,7 @@ function FullRender({ result, rhymes }) {
   const syllables = result.syllables.list.join("-");
   let keys = [];
   return (
-    <div className="result">
+    <section className="result">
       <h2 className="result__title">Frequency</h2>
       <p className="result__text">{result.frequency}</p>
       <h2 className="result__title">Syllables</h2>
@@ -31,7 +31,7 @@ function FullRender({ result, rhymes }) {
           />
         );
       })}
-    </div>
+    </section>
   );
 }
 

@@ -8,8 +8,9 @@ function Search({ searchButtonClick }) {
     searchButtonClick(word);
   };
 
+
   return (
-    <div className="search">
+    <section className="search">
       <form className="search__form" onSubmit={onSearchSubmit}>
         <input
           name="search"
@@ -22,7 +23,7 @@ function Search({ searchButtonClick }) {
         />
         <button className="search__form-button" type="submit"></button>
       </form>
-    </div>
+    </section>
   );
 }
 

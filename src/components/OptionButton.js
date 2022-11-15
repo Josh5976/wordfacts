@@ -9,8 +9,8 @@ function OptionButton({ onChange, param, id, isActive }) {
     onChange(e, keyID);
   };
 
-  const optionButtonClass = `search__params-item ${
-    isActive === id ? "search__params-item_active" : ""
+  const optionButtonClass = `main__params-item ${
+    isActive === id ? "main__params-item_active" : ""
   }`;
 
   return (

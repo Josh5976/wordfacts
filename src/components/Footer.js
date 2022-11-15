@@ -2,10 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="footer__content">
         <p className="footer__text">
-          <a className="footer__link" href="#">
+          <a className="footer__link" href="home">
             @WordFacts
           </a>{" "}
           by Joshua DeSantis
@@ -31,7 +31,7 @@ function Footer() {
           </a>
         </p>
       </div>
-    </div>
+    </footer>
   );
 }
 

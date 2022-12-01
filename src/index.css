@@ -1,1 +1,10 @@
-@import './vendor/normalize.css'
+@import "./vendor/normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500;700;800&display=swap");
+@import "./styles/Datasection.css";
+@import "./styles/Footer.css";
+@import "./styles/Header.css";
+@import "./styles/Main.css";
+@import "./styles/Page.css";
+@import "./styles/Result.css";
+@import "./styles/Search.css";
+@import "./styles/Option.css";

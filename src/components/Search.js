@@ -1,31 +1,29 @@
 import React from "react";
-import "../styles/Search.css";
 
-const onSearchSubmit = (e) => {
-  e.preventDefault();
-  console.log("hello world");
-};
+function Search({ searchButtonClick }) {
+  const [word, setWord] = React.useState("");
 
-function Search() {
+  const onSearchSubmit = (e) => {
+    e.preventDefault();
+    searchButtonClick(word);
+  };
+
+
   return (
-    <div className="search">
+    <section className="search">
       <form className="search__form" onSubmit={onSearchSubmit}>
         <input
           name="search"
           label="search"
           type="text"
+          value={word}
           placeholder="type in word"
           className="search__form-bar"
+          onChange={(e) => setWord(e.target.value)}
         />
         <button className="search__form-button" type="submit"></button>
       </form>
-      <button className="search__params" type="button">Synonyms</button>
-      <button className="search__params" type="button">Rhymes</button>
-      <button className="search__params" type="button">Pronunciation</button>
-      <button className="search__params" type="button">Syllabus</button>
-      <button className="search__params" type="button">Frequency</button>
-      <button className="search__params" type="button">Relation</button>
-    </div>
+    </section>
   );
 }
 

@@ -1,0 +1,49 @@
+.option {
+  margin: 40px auto 0;
+}
+
+.option__title {
+  margin: 0;
+  font-family: "Solway", serif;
+  font-size: 40px;
+  display: inline-block;
+  margin-right: auto;
+  background-color: #effdff;
+  border-radius: 10px 10px 0 10px;
+  padding: 5px;
+}
+
+.option__list {
+  margin: 0;
+  margin-left: 20px;
+  list-style: none;
+  background-color: #effdff;
+  border-radius: 0 10px 10px 10px;
+  padding: 5px;
+}
+
+.option__list-item {
+  margin: 0;
+  padding-left: 7px;
+  padding-bottom: 5px;
+  font-family: "Solway", serif;
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: 300;
+}
+
+.option__text {
+  margin: 0;
+  padding: 7px 10px 7px 10px;
+  font-family: "Solway", serif;
+  background-color: #effdff;
+  border-radius: 0 10px 10px 10px;
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+.option__text_type_small {
+  border-radius: 0 0 10px 10px;
+}

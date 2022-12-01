@@ -1,0 +1,34 @@
+.footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.footer__content {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1000px;
+  flex-grow: 1;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+  padding-top: 8px;
+}
+
+.footer__text {
+  margin: 0 0 0 35px;
+}
+
+.footer__info {
+  margin: 0 40px 0 0;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.25s;
+}
+
+.footer__link:hover {
+  color: #1181ff;
+  transition: color 0.25s;
+}
